@@ -10,7 +10,7 @@ kotlin {
                 jvmTarget = "17"
             }
         }
-        publishLibraryVariants("release", "debug")
+        publishLibraryVariants("debug")
     }
 
     sourceSets["commonTest"].dependencies {
